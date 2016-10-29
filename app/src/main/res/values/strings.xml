@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Music Player</string>
+
+    <string name="button_listView">List View</string>
+    <string name="button_nowplaying">Now Playing</string>
+    <string name="button_songdetails">Song Details</string>
+
+    <string name="category_nowplaying">Now Playing</string>
+    <string name="category_songdetails">Song Details</string>
+
+    <string name="screen_listview">List of all local files on the device that can be played</string>
+    <string name="screen_nowplaying">Current playing song, time left, image of cover art</string>
+    <string name="screen_songdetails">Details about the song + artist from the web (REST API)</string>
+
+    <string name="howto_heading">Technical Details</string>
+    <string name="howto_listview">
+        ContentResolver (get local content from phone) + file access permissions
+    </string>
+    <string name="howto_nowplaying">
+        MediaPlayer, Notification (foreground settings), Audio Manager
+    </string>
+    <string name="howto_songdetails">
+        HTTPUtils, DefaultHTTPClient, JSONObject, BufferedReader + internet permissions
+    </string>
+</resources>
